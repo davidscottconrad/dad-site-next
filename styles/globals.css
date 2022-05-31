@@ -15,3 +15,27 @@ a {
 * {
   box-sizing: border-box;
 }
+
+#services-card{
+  border-radius: 0px;
+  background-color: bisque;
+  box-shadow: 5px 10px;
+  width: 100%;
+  text-align: center;
+  border: 0px;
+}
+
+#services-card:hover{
+  /* border-radius: 30px; */
+  background-color: rgb(255, 202, 138);
+}
+
+#navBarText{
+  
+  color: black;
+  font-weight: 500;
+}
+
+#navContainer{
+ background-color: bisque;
+}
