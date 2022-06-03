@@ -4,7 +4,7 @@ function Nav() {
 
             <div className="row">
                 
-                    <div className="col-sm-6">
+                    <div className="col-sm-12">
                         <ul className="nav">
                             <li className="nav-item">
                                 <a className="nav-link" id="navBarText" href="/">Home</a>
@@ -13,13 +13,13 @@ function Nav() {
                                 <a className="nav-link" id="navBarText" href="/#services">Services</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="navBarText" href="#about">About</a>
+                                <a className="nav-link" id="navBarText" href="/#about">Dr. Conrad</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" id="navBarText" href="#">Resources</a>
+                                <a className="nav-link" id="navBarText" href="/#">Resources</a>
                             </li>
                             <li className="nav-item float-right">
-                                <a className="nav-link" id="navBarText" href="#">Locations and Contact Information</a>
+                                <a className="nav-link" id="navBarText" href="/#">Locations and Contact Information</a>
                             </li>
                         </ul>
                     </div>

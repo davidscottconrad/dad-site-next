@@ -38,4 +38,24 @@ a {
 
 #navContainer{
  background-color: bisque;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 5;
+
+}
+
+#aboutButton{
+  margin: auto;
+  border-radius: 0px;
+  border: 0px;
+  background-color: bisque;
+  color: black;
+  font-weight: 500;
+}
+
+#aboutButton:hover{
+  background-color: rgb(255, 202, 138);
+
 }

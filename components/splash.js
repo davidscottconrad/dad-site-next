@@ -3,7 +3,7 @@ import cecLogo from '../public/logolol.jpg'
 
 function Splash() {
     return <div>
-        <div className='container-fluid' style={{display:"flex", justifyContent:"center", alignItems:"center", paddingTop:"25vh"}}>
+        <div className='container-fluid' style={{display:"flex", justifyContent:"center", alignItems:"center", paddingTop:"30vh"}}>
           <div className='row'>
             <div className='col-md-12'>
             <Image src={cecLogo} layout="responsive"/>

@@ -3,7 +3,7 @@ import Services from '../components/services'
 import About from '../components/about'
 import Nav from '../components/nav'
 import Splash from '../components/splash'
-
+import Resources from '../components/resources'
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
       <Services></Services>
         
         <About></About>
+        <Resources></Resources>
     </div>
   )
 }
