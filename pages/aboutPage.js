@@ -1,36 +1,199 @@
-import Nav from '../components/nav'
-import Image from 'next/image'
-import drConrad from '../public/internetprofilepic.jpg'
+// import Nav from '../components/nav'
+// import Image from 'next/image'
+// import drConrad from '../public/internetprofilepic.jpg'
+// function add(n) {
+//     let total = 0;
+//     for(let i = 1; i<= n; i++ ){
+//         total += i
+//         }
+//         return total;
+// }
 
-export default function aboutPage () {
-    return(
-        <div>
-            <Nav></Nav>
-            <div className="container mt-5">
-        <div className="row" >
-            <div className="col-sm-12 p-4">
-                <h2 className="text-center">Tim J. Conrad, M.D</h2>
-                <h3 className="text-center">Board Certified Opthalmologist</h3>
-                <div className="text-center">
-                </div></div>
-                <div className="row" >
-            </div></div>
-            <div className='row p-3'>
-            <div className="col-md-6 ">
-                <p className="text-left">Trained at Duke University, University of North Carolina in Chapel Hill, and the Kentucky Lions Eye Research Center at the University of Louisville, Dr. Conrad is committed to providing a personal comprehensive approach to eye care.</p>
-                <p>Dr. Tim Conrad was born in 1960 in Louisville, Kentucky, and spent his adolescent years in nearby Palmyra, Indiana. After graduating at the top of his high school class, he attended Purdue University on full scholarship where he achieved a BS degree in Chemical Engineering. From there he worked with Marathon Oil Company in Ohio for four years writing and developing analytical software.</p>
-                <p>In 1987 Dr. Conrad matriculated at Duke University School of Medicine, one of the nation’s top medical schools. Dr. Conrad excelled at Duke, receiving many honors and doing original collaborative research on corneal neovascularization (abnormal blood vessel growth in the front part of the eye) which yielded a new system for measuring blood vessel growth. In 1991 he was named a Scholar in Pathology and attained his M.D. degree. After Duke, Dr. Conrad trained in Internal Medicine at the University of North Carolina in Chapel Hill and returned to Louisville to complete his residency in Ophthalmology at the Kentucky Lions Eye Research Center at the University of Louisville.</p>
-                <p>Upon completion he started Conrad Eye Centers to provide surgical, medical, and routine eye care to the Louisville area. Dr. Conrad is double board certified through the American Board of Ophthalmology and the National Board of Ophthalmology, a fellow of the American Academy of Ophthalmology, and a member of the Kentucky Medical Association and the Indiana State Medical Association.</p>
-                <p>Dr. Conrad lives in Louisville with his wife Margaret raising their five children, Joe, Laurie, Julie, David, and Ginny. Dr. Conrad is an active community member participating in many medical interests, Boy Scouts of America, and other local organizations. He has been featured on multiple radio shows and is considered an expert in ophthalmology.</p>
-                
-            </div>
-            <div className="col-md-6">
-            <Image src={drConrad} layout="responsive"/>
-            </div>
-            </div>
-            </div>
-        
+// const anagram = (arr1, arr2) => {
+//     let obj1 = {}
+//     let obj2 = {}
     
-        </div>
-    )
-}
+
+//     for(let i = 0; i<arr1.length; i++){
+//         if(obj1[arr1[i]]){
+//             obj1[arr1[i]] = 1 + obj1[arr1[i]]
+//         }else{
+//             obj1[arr1[i]] = 1
+//             console.log(arr1[i])
+//         }
+//     }
+
+//     for(let i = 0; i<arr2.length; i++){
+//         if(obj2[arr2[i]]){
+//             obj2[arr2[i]] = 1 + obj2[arr2[i]]
+//         }else{
+//             obj2[arr2[i]] = 1
+//         }
+//     }
+//     console.log(obj1, obj2)
+
+//     for(let key in obj1){
+//         if(obj1[key] == obj2[key]){
+//             console.log(key, obj1[key],obj2[key])
+//             continue
+//         }else{
+//             return 'not anagram'
+//         }
+//     }
+//     return 'match'
+// }
+
+// function add2(arr1, arr2) {
+//     let obj1 = {};
+//     let obj2 = {
+//         9: 1 
+//     }
+//      for (let i = 0; i < arr1.length; i++) {
+         
+//         obj1[arr1[i]] = i;
+//         //console.log(obj1)
+//     }
+    
+//         console.log(1 in obj2)
+    
+   
+//     return null
+// }
+
+// const checker = (arr1, arr2, n) => {
+//     let obj1 = {}
+//     let obj2 = {}
+//     for(let i = 0; i < n; i++){
+//         if(arr1[i] in obj1){
+//             obj1[arr1[i]] = obj1[arr1[i]] + 1
+//         } else {
+//             obj1[arr1[i]] = 1
+//         }
+//     }
+
+//     for(let i = 0; i < n; i++){
+//         if(arr2[i] in obj2){
+//             obj2[arr2[i]] = obj2[arr2[i]] + 1
+//         } else {
+//             obj2[arr2[i]] = 1
+//         }
+//     }
+
+//     console.log(obj1)
+//     console.log(obj2)
+
+//     for(let key in obj1){
+//         let keysq = key * key
+//         //if(obj1[key] != 0)
+//         if(!(keysq in obj2)){return 'no match, failed'}
+//         console.log(obj1[key], obj2[keysq])
+//         //console.log(obj1[key],obj2[key])
+//         if(obj1[key] === obj2[keysq]){
+//            continue
+//         }else{return 'no match'}
+//     }
+//     return 'match'
+
+//     //console.log(obj1)
+//     //console.log(obj2)
+    
+    
+    
+// }
+
+
+
+// const twoSum = (nums, target) => {
+//     const map = {};
+  
+//     for (let i = 0; i < nums.length; i++) {
+      
+  
+//       map[nums[i]] = i;
+//       console.log(map)
+//     }
+    
+  
+//     return null;
+//   };
+
+// const sumZero = (arr) => {
+//     let obj = {}
+//     for(let i = 0; i<arr.length;i++){
+
+//     }
+//     for(let i=0; i<arr.length; i++){
+//         let j = arr.length - 1;
+//         while(i<j){
+//             if(arr[i] + arr[j] == 0){
+//                 return [arr[i],arr[j]]
+//             }
+//             if(arr[i] + arr[j] < 0){
+//                 i++
+//             }
+//             if(arr[i] + arr[j] > 0){
+//                 j--
+//             }
+
+//         }
+//         return [undefined,undefined]
+//     }
+// }
+
+// const twoPointer = (arr,i,j) => {
+    
+//         let i = 0
+//         let j = 1
+//         let count = 0
+//         if(arr.length == 0){return 0}
+//         for(let b = 0; b < arr.length-1; b++){
+//             //console.log('///////////////////////')
+//             //console.log('i',i,'j',j)
+//             //console.log('arr[i]',arr[i],'arr[j]',arr[j])
+//             if(arr[i]<arr[j]){
+                
+//                 i = j
+                
+//                 count++
+//                 //console.log('inside if')
+//             }
+            
+//                 j++
+           
+//             //t++
+//             //console.log('vount',count)
+//             //console.log('i',i,'j',j)
+//             //console.log('t',b)
+//         }
+//         return count+1
+//       // add whatever parameters you deem necessary - good luck!
+    
+// }
+
+// var time1 = performance.now();
+// //addUpTo(1000000000);
+// var time2 = performance.now();
+
+// let arr1 = [1,2,3,2,5]
+// let arr2 = [9,1,4,4,25]
+// let arr3 = 'anagram'
+// let arr4 = 'nagaram'
+// let arr5 = 'zza'
+// let arr6 = 'aaz'
+// let arr7 = [-5,-2,-1,0,1,2,3]
+// let arr8 = [1,2,3,4,4,4,7,7,12,12,13]
+
+
+
+// console.log(`Time Elapsed: ${(time2 - time1) / 1000} seconds.`)
+
+// export default function aboutPage () {
+//     return(
+//         <div>
+//            <p></p>
+//            <p>{}</p> 
+//            {twoPointer(arr8)
+//            }
+//         </div>
+//     )
+// }
