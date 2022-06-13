@@ -1,0 +1,52 @@
+#servicess{
+    background-color: aquamarine !important;
+}
+
+#collapsibleprops{
+    padding: 0.3rem;
+    margin: 10px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 3px;
+    
+    
+}
+
+#collapsiblepropsSmall{
+    padding: 0.3rem;
+    margin: 10px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 3px;
+    
+}
+
+#dropDownParent{
+    overflow: hidden;
+    
+    transition: height ease .6s;
+    height: 0px;
+
+}
+
+#breakPoint{
+    border-radius: 0px;
+    background-color: #d3d7b1;
+    box-shadow: 5px 10px;
+    width: 100%;
+    text-align: center;
+    border: 0px;
+    cursor: pointer;
+}
+
+#breakPoint:hover{
+    /* border-radius: 30px; */
+    background-color: #cbd476;
+  }
+
+@media (min-width: 768px) and (max-width: 1399px){
+    #breakPoint{
+        height: 117.5px !important;
+        width: 100%;
+    }
+  }

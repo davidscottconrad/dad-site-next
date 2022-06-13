@@ -45,6 +45,7 @@ a {
   width: 100%;
   text-align: center;
   border: 0px;
+  cursor: pointer;
 }
 
 #services-card:hover{
@@ -94,6 +95,8 @@ a {
 
 }
 
+
+
 #overlay{
   background-color:#d3d7b1;
   position:fixed;
@@ -104,7 +107,7 @@ a {
   z-index:1000;
 }
 
-#Contact{
+#contact{
   margin-top: 5vh;
   padding-top: 5vh !important;
   background-color: rgb(233, 233, 233) ;
@@ -173,3 +176,6 @@ svg {
 }
 
 
+#collapsibleprops{
+  background-color: blue;
+}

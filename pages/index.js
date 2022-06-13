@@ -8,6 +8,7 @@ import Contact from '../components/contact'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Script from 'next/Script'
 
+
 export default function Home() {
 
   return (
@@ -21,7 +22,7 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href='https://fonts.googleapis.com/css2?family=Balthazar&display=swap' rel="stylesheet" />
         <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"></link>
-
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <Navigation></Navigation>

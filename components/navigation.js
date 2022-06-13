@@ -19,9 +19,9 @@ function Navigation() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse inverse id="basic-navbar-nav" >
             <Nav >
-              <Nav.Link href="#home" id="navBarText">Home</Nav.Link>
+              <Nav.Link href="/" id="navBarText">Home</Nav.Link>
               <Nav.Link href="#services" id="navBarText">Services</Nav.Link>
-              <Nav.Link href="#home" id="navBarText">About</Nav.Link>
+              <Nav.Link href="#about" id="navBarText">About</Nav.Link>
               <Nav.Link href="#resources" id="navBarText">Resources</Nav.Link>
               <Nav.Link href="#contact" id="navBarText">Contact Information and Locations</Nav.Link>
             </Nav>
