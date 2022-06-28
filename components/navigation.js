@@ -13,7 +13,7 @@ function Navigation() {
       <Navbar className="ms-auto" expand="lg" variant="dark"  >
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse inverse id="basic-navbar-nav" value="Conrad Eye Centers" >
+          <Navbar.Collapse id="basic-navbar-nav" value="Conrad Eye Centers" >
             <Nav className="m-auto">
               <Nav.Link href="/#services" id="navBarText">Services</Nav.Link>
               <Nav.Link href="/#about" id="navBarText">About</Nav.Link>

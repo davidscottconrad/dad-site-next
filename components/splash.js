@@ -12,7 +12,7 @@ function Splash() {
       <div className='row'>
         <div className='col-md-12'>
           <div id="cecImage">
-            <Image src={cecLogo} layout="responsive" />
+            <Image src={cecLogo} layout="responsive" alt="Conrad Eye Centers Logo" />
           </div>
           <h1 className='text-center' style={{ paddingTop: "5vh", fontWeight: "bold" }} >Ophthalmology</h1>
           <h1 className='text-center' style={{ fontWeight: "bold" }} >Eye Diseases and Surgery</h1>
