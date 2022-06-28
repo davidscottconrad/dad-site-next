@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import cecLogo from '../public/logocolor2.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -12,7 +12,7 @@ function Splash() {
       <div className='row'>
         <div className='col-md-12'>
           <div id="cecImage">
-            <img src={cecLogo} layout="responsive" alt="Conrad Eye Centers Logo" />
+            <Image src={cecLogo} layout="responsive" alt="Conrad Eye Centers Logo" />
           </div>
           <h1 className='text-center' style={{ paddingTop: "5vh", fontWeight: "bold" }} >Ophthalmology</h1>
           <h1 className='text-center' style={{ fontWeight: "bold" }} >Eye Diseases and Surgery</h1>

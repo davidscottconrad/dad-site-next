@@ -1,4 +1,4 @@
-
+import Image from 'next/image'
 import drConrad from '../public/TimHeadshot.jpg'
 
 
@@ -19,7 +19,7 @@ function About() {
                     <p>Dr. Conrad lives in Louisville with his wife Margaret raising their five children, Joe, Laurie, Julie, David, and Ginny. Dr. Conrad is an active community member participating in many medical interests, Boy Scouts of America, and other local organizations. He has been featured on multiple radio shows and is considered an expert in ophthalmology.</p>
                 </div>
                 <div className="col-lg-6">
-                    <img alt="Dr. Tim Conrad Headshot" src={drConrad} layout="responsive" />
+                    <Image alt="Dr. Tim Conrad Headshot" src={drConrad} layout="responsive" />
                 </div>
             </div>
         </div>
