@@ -5,13 +5,11 @@ import drConrad from '../public/TimHeadshot.jpg'
 function About() {
     return <div id="about">
 
-
         <div className="container p-4 mt-5">
             <div className="row" >
                 <div className="col-sm-12">
                     <h2 className="text-center">Tim J. Conrad, M.D.</h2>
                     <h3 className="text-center mb-5">Board Certified Opthalmologist</h3>
-                 
                 </div>
                 <div className="col-lg-6 ">
                     <p className="text-left">Trained at Duke University, University of North Carolina in Chapel Hill, and the Kentucky Lions Eye Research Center at the University of Louisville, Dr. Conrad is committed to providing a personal comprehensive approach to eye care.</p>
@@ -21,13 +19,12 @@ function About() {
                     <p>Dr. Conrad lives in Louisville with his wife Margaret raising their five children, Joe, Laurie, Julie, David, and Ginny. Dr. Conrad is an active community member participating in many medical interests, Boy Scouts of America, and other local organizations. He has been featured on multiple radio shows and is considered an expert in ophthalmology.</p>
                 </div>
                 <div className="col-lg-6">
-                    
                     <Image alt="scroll down button" src={drConrad} layout="responsive" />
-                    
                 </div>
             </div>
         </div>
         <div style={{ height: "5vh" }}></div>
+        
     </div>
 }
 
