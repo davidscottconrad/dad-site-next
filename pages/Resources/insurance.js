@@ -1,5 +1,5 @@
 import Navigation from '../../components/navigation'
-import Head from 'next/Head'
+import Head from 'next/head'
 //import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 
 export default function Privacy() {

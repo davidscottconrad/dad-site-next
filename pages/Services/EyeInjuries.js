@@ -1,5 +1,5 @@
 import Navigation from '../../components/navigation'
-import Head from 'next/Head'
+import Head from 'next/head'
 
 export default function EyeInjuries() {
     return (

@@ -1,5 +1,5 @@
 import Navigation from '../../components/navigation'
-import Head from 'next/Head'
+import Head from 'next/head'
 import Link from 'next/link'
 export default function VisionExams() {
     return (

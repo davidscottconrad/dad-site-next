@@ -1,4 +1,4 @@
-import Head from 'next/Head'
+import Head from 'next/head'
 import Services from '../components/services'
 import About from '../components/about'
 import Navigation from '../components/navigation'
