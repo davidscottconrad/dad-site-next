@@ -9,11 +9,11 @@ function Resources() {
     There are a multitude of disorders that can affect the eye, and as your source for comprehensive eye care we have provided an introduction to many common problems associated with eyes.
     </Collapsible>
     
-    <Collapsible label="Insurance Options" readMoreLink = {'/Services/EyeDiseases'}>
+    <Collapsible label="Insurance Options" readMoreLink = {'/Resources/insurance'}>
     Conrad Eye Centers accepts most medical and vision plans.
     </Collapsible>
    
-    <Collapsible label="Notice of Privacy Practice" readMoreLink = {'/Services/EyeDiseases'}>
+    <Collapsible label="Notice of Privacy Practice" readMoreLink = {'/Resources/privacy'}>
     At Conrad Eye Centers we take your privacy seriously.
      </Collapsible>
     </div>

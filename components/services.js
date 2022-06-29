@@ -29,17 +29,20 @@ function Services() {
         </Collapsible>
 
         <Collapsible label="Laser Vision Correction" readMoreLink={'/Services/Laser'}>
-          Conrad Eye Centers uses the most advanced multi-focal lens implant technology in intraocular lens replacement for cataracts.
+        <p>Lasik and PRK</p>
+
+        <p>Reduce your need for glasses or contacts</p> 
         </Collapsible>
 
         <Collapsible label="Eye Implants" readMoreLink={'/Services/Implants'}>
-          Cataract Surgery, Chalazion/Stye Excision, and Skin Tag Removal
+        Conrad Eye Centers uses the most advanced multi-focal lens implant technology in intraocular lens replacement for cataracts.
         </Collapsible>
       </div>
 
       <div className='row'>
         <Collapsible label="Surgical Procedures" readMoreLink={'/Services/SurgicalProcedures'}>
-          Conrad Eye Centers uses the most advanced multi-focal lens implant technology in intraocular lens replacement for cataracts.
+        Cataract Surgery, Chalazion/Stye Excision, and Skin Tag Removal
+          
         </Collapsible>
 
         <Collapsible label="Pediatric Opthalmology" readMoreLink={'/Services/Pediactric'}>

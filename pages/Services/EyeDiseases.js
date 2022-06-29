@@ -25,7 +25,7 @@ export default function EyeDiseases() {
                         <p className='pb-3'>Preserving your eyesight is our top priority at Conrad Eye Centers. Dr. Conrad was named a Scholar in Pathology at Duke University School of Medicine and having collaborated alongside some of the top minds in the world he is an expert in the treatment of eye disease. We use the latest in diagnostic and treatment technology including Optical Coherence Tomography (OCT), visual field exams, pachymetry, intraocular photography, and corneal topography.</p>
                     </div>
                     <div className='col-lg-6'>
-                        <p className='pb-3'>Preserving your eyesight is our top priority at Conrad Eye Centers. Dr. Conrad was named a Scholar in Pathology at Duke University School of Medicine and having collaborated alongside some of the top minds in the world he is an expert in the treatment of eye disease. We use the latest in diagnostic and treatment technology including Optical Coherence Tomography (OCT), visual field exams, pachymetry, intraocular photography, and corneal topography.</p>
+                        <p className='pb-3'>Since Conrad Eye Centers is a single physician practice, you can rest assured you will never be bounced back and forth between doctors. All treatment is conducted by Dr. Conrad himself, and he will personally see you at every visit. Dr. Conrad feels that making sure the patient is completely satisfied and current on their condition is of paramount importance. At Conrad Eye Centers we educate you about your eye conditions so you may understand and participate in your eye care.</p>
                     </div>
                 </div>
             </div>

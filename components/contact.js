@@ -15,7 +15,7 @@ function Contact() {
                             <h2 style={{ fontSize: '22px' }}>New Albany</h2>
                             <p>
                                 Professional Arts Building<br></br>
-                                1919 State Street Suite 210<br></br>
+                                1919 State Street Suite 201<br></br>
                                 New Albany, IN 47150<br></br>
                             </p>
                         </div>
