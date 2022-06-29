@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import drConrad from '../public/TimHeadshot.jpg'
+import drConrad from '../public/TimHeadshot.JPG'
 
 
 function About() {
