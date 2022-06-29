@@ -1,5 +1,6 @@
 import Navigation from '../../components/navigation'
 import Head from 'next/Head'
+import Link from 'next/link'
 //import { PDFDownloadLink, Document, Page } from '@react-pdf/renderer';
 
 export default function Privacy() {
@@ -23,7 +24,7 @@ export default function Privacy() {
                 <div className='row'>
                     <h2 className='text-center pb-2' id="infoSubTitle">At Conrad Eye Centers we take your privacy seriously.</h2>
                     <p>We have established policies and procedures to keep your information safe. Visit the link below to learn how we collect, use and protect patient information. If you have any questions or concerns, do not hesitate to contact us.</p>
-                    <a href="/Conrad-Eye-Centers-HIPAA-Notice.pdf" download>Hippa Notice</a>
+                    <Link href="/Conrad-Eye-Centers-HIPAA-Notice.pdf" download>Hippa Notice</Link>
                 </div>
             </div>
         </div>
