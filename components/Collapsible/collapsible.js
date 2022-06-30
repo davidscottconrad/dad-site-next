@@ -53,7 +53,7 @@ function Collapsible({ label, readMoreLink, children }) {
                     }
             }
         >
-            {size.width <= 767 && <div id={styles.collapsiblepropsSmall}><p>{children}</p> </div>} 
+            {size.width <= 767 && <div id={styles.collapsiblepropsSmall}>{children} </div>} 
             {size.width > 767 && (<div id={styles.collapsibleprops}>{children}</div>)}
 
             <div className="frame">
