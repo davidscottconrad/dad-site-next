@@ -1,5 +1,6 @@
 import Navigation from '../../components/navigation'
 import Head from 'next/head'
+import Link from 'next/link'
 
 export default function ContactsAndGlasses() {
     return (
@@ -17,8 +18,16 @@ export default function ContactsAndGlasses() {
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <Navigation></Navigation>
+            
             <div className='container' id="infoContainer">
-                <h1 className="text-center pb-1" style={{ color: 'black' }}>Glasses and Contacts</h1>
+            <h1 className="text-center pb-5" style={{ color: 'black' }}>Vision Exams with an Optical Botique</h1>
+                <div className='row mb-4'>
+                    <h2 className='text-center' id="infoSubTitle">Conrad Eye Centers focuses on your vision with one-on-one personalized eye exams for any age.</h2>
+                    <p>We know your sight is important. That is why Dr. Conrad personally examines every patient. Dr. Conrad is a trained and nationally recognized ophthalmologist; this means during even a routine eye exam everything about your eye is being examined by one of the best medical doctors in Louisville. Though optometrists are qualified to prescribe glasses and contacts and even treat some disorders of the eye, an ophthalmologist is a medical doctor who can prescribe contacts and glasses, diagnose and treat all conditions of the eye, prescribe medications, and perform surgery on the eye.</p>
+                    <p>We accept most vision and eye care plans. Every full routine eye exam will leave you with a custom prescription for glasses and the assurance that you had the most in-depth exam possible.</p>
+                    <p><Link href="/Resources/insurance" alt="insurance link" passHref><a>More information on Vision Insurance</a></Link></p>
+                </div>
+               
                 <h4 className='pb-4'>Each of our locations has a full service optical boutique. Our optician has years of experience and will work one-on-one with you to find the perfect balance of style, quality, and affordability.</h4>
                 <div className='row'>
                     <div className='col-lg-6'>
