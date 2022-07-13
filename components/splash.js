@@ -20,9 +20,7 @@ function Splash() {
         </div>
       </div>
     </div>
-    <div className='container-fluid'>
-      <div id="arrow">{element}</div>
-    </div>
+    
     <div id="buffer">
     </div>
   </div>
