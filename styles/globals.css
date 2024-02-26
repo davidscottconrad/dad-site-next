@@ -2,7 +2,7 @@ html,
 
 * {
   font-family: 'Balthazar', serif;
-  font-size: large;
+  font-size: 1.3rem;
   color: #4d4d4d;
 }
 
@@ -322,4 +322,11 @@ svg {
 .btn-7 span:hover:after {
   width: 100%;
 
+}
+
+#headshot{
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+  margin: auto;
 }
