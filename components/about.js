@@ -7,11 +7,8 @@ function About() {
     <div id="about">
       <div className="container p-4 mt-5">
         <div className="row">
-          <div className="col-sm-12">
-            <h2 className="text-center">Laurie Willbanks, MD</h2>
-            <h3 className="text-center">Board Certified Opthalmologist</h3>
-          </div>
-          <div className="col-lg-6 col-md-12">
+
+          <div className="col-lg-6 col-md-12 p-5">
             <div >
               <Image
                 alt="Dr. Laurie Willbanks Headshot"
@@ -20,6 +17,8 @@ function About() {
                 id = "headshot"
               />
             </div>
+            <h2 className="text-center mt-2">Laurie Willbanks, MD</h2>
+            <h3 className="text-center">Board Certified Ophthalmologist</h3>
             <p className="text-left" style={{ marginTop: 1 + "em" }}>
             Dr. Laurie Wilbanks is a board-certified ophthalmologist specializing in medical and surgical care of glaucoma.  Dr. Wilbanks is a native of Louisville, Kentucky. She graduated from Purdue University, then went on to complete her medical degree at the University of Louisville.  After medical school, Dr. Wilbanks relocated to Charleston, South Carolina where she completed both her internship in General Surgery and her residency in Ophthalmology at the Medical University of South Carolina.  After residency, Dr. Wilbanks worked in a private practice as a general ophthalmologist with a focus on cataract surgery as well as the care of a wide variety of conditions affecting the eyes and vision. During her years working in private practice, Dr. Wilbanks developed a passion for caring for patients with glaucoma.  She decided to return to the Medical University of South Carolina to complete a fellowship in Glaucoma to expand her skillset to include surgical glaucoma care.
             </p>
@@ -29,7 +28,7 @@ function About() {
             </p>
            
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-6 col-md-12 p-5">
             <div >
               <Image
                 alt="Dr. Tim Conrad Headshot"
@@ -38,6 +37,8 @@ function About() {
                 id="headshot"
               />
             </div>
+            <h2 className="text-center mt-2">Tim Conrad, MD</h2>
+            <h3 className="text-center">Board Certified Ophthalmologist</h3>
             <p className="text-left" style={{ marginTop: 1 + "em" }}>
               Trained at Duke University, University of North Carolina in Chapel
               Hill, and the Kentucky Lions Eye Research Center at the University
