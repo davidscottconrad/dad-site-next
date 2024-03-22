@@ -25,27 +25,30 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
-      <Navigation></Navigation>
-      <Splash></Splash>
-      <div>
-      <h1
-              className="text-center"
-              style={{ paddingTop: "5vh", fontWeight: "bold" }}
-            >
-              Ophthalmology
-            </h1>
-            <h1 className="text-center" style={{ fontWeight: "bold" }}>
-              Eye Diseases and Surgery
-            </h1>
-            <h1 className="text-center" style={{ fontWeight: "bold" }}>
-              Glaucoma
-            </h1>
-            <h1 className="text-center" style={{ fontWeight: "bold" }}>
-              Tim Conrad, MD
-            </h1>
-            <h1 className="text-center" style={{ fontWeight: "bold" }}>
-              Laurie Willbanks, MD
-            </h1>
+      <div className="header-container">
+        <Navigation></Navigation>
+        <Splash></Splash>
+        <div>
+        <h1
+                className="text-center"
+                style={{ paddingTop: "5vh", fontWeight: "bold" }}
+              >
+                Ophthalmology
+              </h1>
+              <h1 className="text-center" style={{ fontWeight: "bold" }}>
+                Eye Diseases and Surgery
+              </h1>
+              <h1 className="text-center" style={{ fontWeight: "bold" }}>
+                Glaucoma
+              </h1>
+              <br />
+              <h1 className="text-center" style={{ fontWeight: "bold" }}>
+                Tim Conrad, MD
+              </h1>
+              <h1 className="text-center" style={{ fontWeight: "bold" }}>
+                Laurie Willbanks, MD
+              </h1>
+        </div>
       </div>
       <Services></Services>
       <About ></About>
