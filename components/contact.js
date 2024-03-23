@@ -22,7 +22,7 @@ function Contact() {
                         <div className="col-md-6 mb-4">
                             <h2>Laurie Wilbanks Springs Location</h2>
                             <p>
-                                6420 Dutchsman Pkwy, Suite<br></br>
+                                6420 Dutchsman Pkwy, Suite 85<br></br>
                                 Louisville, KY 40205<br></br>
                             </p>
                         </div>
