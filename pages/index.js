@@ -46,7 +46,7 @@ export default function Home() {
                 Tim Conrad, MD
               </h1>
               <h1 className="text-center" style={{ fontWeight: "bold" }}>
-                Laurie Willbanks, MD
+                Laurie Wilbanks, MD
               </h1>
         </div>
       </div>
