@@ -22,7 +22,7 @@ function Navigation() {
             </Nav>
           </Navbar.Collapse>
           <Nav.Link href="/">
-            <Navbar.Brand>Conrad Eye Centers</Navbar.Brand>
+            <Navbar.Brand>(502) 899-7778</Navbar.Brand>
           </Nav.Link>
         </Container>
       </Navbar>

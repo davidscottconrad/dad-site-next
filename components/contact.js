@@ -24,8 +24,8 @@ function Contact() {
                 <div className="col-md-6">
                     <h1 style={{ fontSize: '36px' }}>Contact Information</h1>
                     <div className="row">
-                        <div className="col-md-6"><h2 style={{ fontSize: '22px' }}>St. Matthews</h2>Phone: 812-944-6063<br></br>
-                            Fax: 502-899-7778</div>
+                        <div className="col-md-6"><h2 style={{ fontSize: '22px' }}>St. Matthews</h2>Phone: 502-899-7778<br></br>
+                            Fax: 502-897-5757</div>
                         <div className="col-md-6"><h2 style={{ fontSize: '22px' }}>New Albany</h2>Phone: 812-944-6063<br></br>
                             Fax: 502-897-5757</div>
                     </div>
