@@ -3,7 +3,7 @@ import Collapsible from "./Collapsible/collapsible";
 
 function Services() {
   return (
-    <div id="services" style={{ position: "relative" }}>
+    <div id="services" style={{ position: "relative", marginTop: "10vh" }}>
       <div className="container">
         <h2 className="text-center pb-5">Services </h2>
         <div className="row">
