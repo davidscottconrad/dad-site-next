@@ -35,7 +35,7 @@ export default function Home() {
         <div style={{ position: "relative" }}>
           <h1
             className="text-center"
-            style={{ paddingTop: "7vh", fontWeight: "bold" }}
+            style={{ paddingTop: "12vh", fontWeight: "bold" }}
           >
             Ophthalmology
           </h1>
