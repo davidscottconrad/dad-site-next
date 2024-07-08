@@ -1,35 +1,55 @@
 import Image from "next/image";
 import drConrad from "../public/TimHeadshot.JPG";
-import laurie from "../public/Laurie_3.JPG"
+import laurie from "../public/Laurie_3.JPG";
 
 function About() {
   return (
     <div id="about">
       <div className="container p-4 mt-5">
         <div className="row">
-
           <div className="col-lg-6 col-md-12 ">
-            <div >
+            <div>
               <Image
                 alt="Dr. Laurie Wilbanks Headshot"
                 src={laurie}
                 layout="responsive"
-                id = "headshot"
+                id="headshot"
               />
             </div>
             <h2 className="text-center mt-2">Laurie Wilbanks, MD</h2>
             <h3 className="text-center">Board Certified Ophthalmologist</h3>
             <p className="text-left" style={{ marginTop: 1 + "em" }}>
-            Dr. Laurie Wilbanks is a board-certified ophthalmologist specializing in medical and surgical care of glaucoma.  Dr. Wilbanks is a native of Louisville, Kentucky. She graduated from Purdue University, then went on to complete her medical degree at the University of Louisville.  After medical school, Dr. Wilbanks relocated to Charleston, South Carolina where she completed both her internship in General Surgery and her residency in Ophthalmology at the Medical University of South Carolina.  After residency, Dr. Wilbanks worked in a private practice as a general ophthalmologist with a focus on cataract surgery as well as the care of a wide variety of conditions affecting the eyes and vision. During her years working in private practice, Dr. Wilbanks developed a passion for caring for patients with glaucoma.  She decided to return to the Medical University of South Carolina to complete a fellowship in Glaucoma to expand her skillset to include surgical glaucoma care.
+              Dr. Laurie Wilbanks is a board-certified ophthalmologist
+              specializing in medical and surgical care of glaucoma. Dr.
+              Wilbanks is a native of Louisville, Kentucky. She graduated from
+              Purdue University, then went on to complete her medical degree at
+              the University of Louisville. After medical school, Dr. Wilbanks
+              relocated to Charleston, South Carolina where she completed both
+              her internship in General Surgery and her residency in
+              Ophthalmology at the Medical University of South Carolina. After
+              residency, Dr. Wilbanks worked in a private practice as a general
+              ophthalmologist with a focus on cataract surgery as well as the
+              care of a wide variety of conditions affecting the eyes and
+              vision. During her years working in private practice, Dr. Wilbanks
+              developed a passion for caring for patients with glaucoma. She
+              decided to return to the Medical University of South Carolina to
+              complete a fellowship in Glaucoma to expand her skillset to
+              include surgical glaucoma care.
             </p>
             <p>
-
-            Dr. Wilbanks’s unique experience allows her to offer customized glaucoma and cataract care to her patients. In addition to traditional glaucoma incisional surgeries, Dr. Wilbanks is also proficient in minimally invasive glaucoma surgery and combined cataract and glaucoma surgery.  She has experience with advanced technology intraocular lenses, including toric lenses, multifocal lenses, and extended depth of focus lenses. Dr. Wilbanks enjoys working closely with her patients to tailor each of their individual needs and circumstances. 
+              Dr. Wilbanks’s unique experience allows her to offer customized
+              glaucoma and cataract care to her patients. In addition to
+              traditional glaucoma incisional surgeries, Dr. Wilbanks is also
+              proficient in minimally invasive glaucoma surgery and combined
+              cataract and glaucoma surgery. She has experience with advanced
+              technology intraocular lenses, including toric lenses, multifocal
+              lenses, and extended depth of focus lenses. Dr. Wilbanks enjoys
+              working closely with her patients to tailor each of their
+              individual needs and circumstances.
             </p>
-           
           </div>
           <div className="col-lg-6 col-md-12">
-            <div >
+            <div>
               <Image
                 alt="Dr. Tim Conrad Headshot"
                 src={drConrad}
@@ -76,12 +96,15 @@ function About() {
               Association.
             </p>
             <p>
-              Dr. Conrad lives in Louisville with his wife Margaret raising
-              their five children, Joe, Laurie, Julie, David, and Ginny. Dr.
-              Conrad is an active community member participating in many medical
-              interests, Boy Scouts of America, and other local organizations.
-              He has been featured on multiple radio shows and is considered an
-              expert in ophthalmology.
+              Dr. Conrad lives in Louisville with his wife Margaret where they
+              raised their five children, Joe, Laurie, Julie, David, and Ginny.
+              He is an active community member participating in many medical
+              interests and local organizations, and has been featured on
+              multiple radio shows as an expert in Ophthalmology. Outside of the
+              office Dr. Conrad enjoys spending time with his family, their
+              poodles, and being “Pop-Pop” to his five grandchildren. He’s also
+              an avid sports fan and cheers on his various Alma Maters, Purdue,
+              Duke, and UofL.
             </p>
           </div>
         </div>
