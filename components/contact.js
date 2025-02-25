@@ -35,6 +35,12 @@ function Contact() {
                             Fax: 502-897-5757</div>
                         <div className="col-md-6 mb-4"><h2 >New Albany</h2>Phone: 812-944-6063<br></br>
                             Fax: 502-897-5757</div>
+                            <div className="col-md-6 mb-4"><h2 >New Albany</h2>Phone: 812-944-6063<br></br>
+                            Fax: 502-897-5757</div>
+
+                        </div>
+                        <div className="col-md-12 mb-4" id=""><h2 >Email</h2>reception@conradeyecenter.com<br></br>
+                            
                     </div>
                 </div>
             </div>

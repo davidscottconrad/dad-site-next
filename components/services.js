@@ -5,7 +5,7 @@ function Services() {
   return (
     <div id="services" style={{ position: "relative", marginTop: "10vh" }}>
       <div className="container">
-        <h2 className="text-center pb-5">Services </h2>
+        <h2 className="text-center p-5">Services </h2>
         <div className="row">
           <Collapsible
             label="Glasses and Contacts"
