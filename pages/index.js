@@ -22,21 +22,14 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Balthazar&display=swap"
           rel="stylesheet"
         />
-        <link
-          rel="stylesheet"
-          href="path/to/font-awesome/css/font-awesome.min.css"
-        ></link>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
 
       <div className="header-container">
-        <Navigation></Navigation>
-        <Splash></Splash>
+        <Navigation />
+        <Splash />
         <div style={{ position: "relative" }}>
-          <h1
-            className="text-center"
-            style={{ paddingTop: "12vh", fontWeight: "bold" }}
-          >
+          <h1 className="text-center" style={{ paddingTop: "4vh", fontWeight: "bold" }}>
             Ophthalmology
           </h1>
           <h1 className="text-center" style={{ fontWeight: "bold" }}>
@@ -49,16 +42,14 @@ export default function Home() {
           <h1 className="text-center" style={{ fontWeight: "bold" }}>
             Tim Conrad, MD
           </h1>
-          <h1 className="text-center" style={{ fontWeight: "bold" }}>
-            Laurie Wilbanks, MD
-          </h1>
         </div>
+
+        <Contact />
       </div>
-      <Services></Services>
-      <About></About>
-      <Resources></Resources>
-      <Contact></Contact>
+
+      <Services />
+      <About />
+      <Resources />
     </div>
   );
 }
-// style={{position:"absolute", top:"35vh"}}
