@@ -88,6 +88,7 @@ img {
   font-weight: 700;
   letter-spacing: 0.3px;
   flex-shrink: 0;
+  text-decoration: none;
 }
 
 .nav-brand:hover {
@@ -99,6 +100,14 @@ img {
   align-items: center;
   gap: 4px;
   list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .nav-links a {
@@ -110,6 +119,7 @@ img {
   transition: all 0.18s;
   letter-spacing: 0.2px;
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .nav-links a:hover {
@@ -628,7 +638,8 @@ img {
 }
 
 #contact .section-header h2 { color: white; }
-#contact .section-divider { background: rgba(27, 143, 168, 0.7); }
+#contact .section-label { color: var(--teal-mid); }
+#contact .section-divider { background: var(--teal-mid); }
 
 .contact-grid {
   display: grid;
@@ -660,7 +671,7 @@ img {
 
 .location-card address {
   font-style: normal;
-  color: rgba(255, 255, 255, 0.65);
+  color: white;
   font-size: 0.89rem;
   line-height: 1.7;
   margin-bottom: 14px;
@@ -678,7 +689,7 @@ img {
 .location-card .phone:hover { color: white; }
 
 .location-card .fax {
-  color: rgba(255, 255, 255, 0.38);
+  color: white;
   font-size: 0.82rem;
   display: block;
 }
@@ -827,24 +838,24 @@ body {
 }
 
 .location-card h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 .location-card address {
-  font-size: 1.15rem;
-  line-height: 1.85;
+  font-size: 1.3rem;
+  line-height: 1.9;
 }
 
 .location-card .phone {
-  font-size: 1.1rem;
+  font-size: 1.35rem;
 }
 
 .location-card .fax {
-  font-size: 0.95rem;
+  font-size: 1.15rem;
 }
 
 .contact-email-bar a {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
 }
 
 .nav-links a {
