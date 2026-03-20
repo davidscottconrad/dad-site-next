@@ -1,73 +1,66 @@
-import React, { useState, useEffect } from "react";
-import Collapsible from "./Collapsible/collapsible";
+import Link from 'next/link';
+
+const services = [
+  {
+    title: 'Glasses & Contacts',
+    description:
+      'Conrad Eye Centers focuses on your vision with one-on-one personalized eye exams for any age. Each of our locations has a full service optical boutique.',
+    link: '/Services/GlassesAndContacts',
+  },
+  {
+    title: 'Eye Injuries & Infections',
+    description:
+      'Is your eye red, irritated, scratchy, watery, or painful? Dr. Conrad is your convenient, quick, and knowledgeable answer.',
+    link: '/Services/EyeInjuries',
+  },
+  {
+    title: 'Laser Vision Correction',
+    description:
+      'LASIK and PRK procedures to reduce your need for glasses or contacts. Dr. Conrad has been performing laser vision correction since 1997.',
+    link: '/Services/Laser',
+  },
+  {
+    title: 'Eye Diseases',
+    description:
+      'Expert care and treatment for chronic eye diseases such as glaucoma, macular degeneration, diabetic retinopathy, and many others.',
+    link: '/Services/EyeDiseases',
+  },
+  {
+    title: 'Eye Implants',
+    description:
+      'Conrad Eye Centers uses the most advanced multi-focal lens implant technology in intraocular lens replacement for cataracts.',
+    link: '/Services/Implants',
+  },
+  {
+    title: 'Surgical Procedures',
+    description:
+      'Cataract surgery, chalazion/stye excision, and skin tag removal performed with expert care and precision.',
+    link: '/Services/SurgicalProcedures',
+  },
+];
 
 function Services() {
   return (
-    <div id="services" style={{ position: "relative", marginTop: "10vh" }}>
-      <div className="container">
-        <h2 className="text-center p-5">Services </h2>
-        <div className="row">
-          <Collapsible
-            label="Glasses and Contacts"
-            readMoreLink={"/Services/GlassesAndContacts"}
-          >
-            Conrad Eye Centers focuses on your vision with one-on-one
-            personalized eye exams for any age. Each of our locations has a full
-            service optical boutique.
-          </Collapsible>
-
-          <Collapsible
-            label="Eye Injuries and Infections"
-            readMoreLink={"/Services/EyeInjuries"}
-          >
-            Is your eye red, irritated, scratchy, watery, or painful? Dr. Conrad
-            is your convenient, quick, and knowledgeable answer.
-          </Collapsible>
-
-          <Collapsible
-            label="Laser Vision Correction"
-            readMoreLink={"/Services/Laser"}
-          >
-            <p>Lasik and PRK</p>
-
-            <p>Reduce your need for glasses or contacts</p>
-          </Collapsible>
+    <section id="services">
+      <div className="section-container">
+        <div className="section-header">
+          <span className="section-label">What We Offer</span>
+          <h2>Our Services</h2>
+          <div className="section-divider" />
         </div>
-
-        <div className="row">
-          <Collapsible
-            label="Eye Diseases"
-            readMoreLink={"/Services/EyeDiseases"}
-          >
-            Conrad Eye Centers can provide you the best care and treatment in
-            Louisville for chronic eye diseases such as glaucoma, macular
-            degeneration, diabetic retinopathy, and many others.
-          </Collapsible>
-
-          <Collapsible label="Eye Implants" readMoreLink={"/Services/Implants"}>
-            Conrad Eye Centers uses the most advanced multi-focal lens implant
-            technology in intraocular lens replacement for cataracts.
-          </Collapsible>
-
-          <Collapsible
-            label="Surgical Procedures"
-            readMoreLink={"/Services/SurgicalProcedures"}
-          >
-            Cataract Surgery, Chalazion/Stye Excision, and Skin Tag Removal
-          </Collapsible>
-        </div>
-
-        <div className="row">
-          {/* <Collapsible label="Pediatric Opthalmology" readMoreLink={'/Services/Pediactric'}>
-          Dr. Conrad sees patients of all ages, and has had additional training in pediatric eye diseases.
-        </Collapsible> */}
-
-          {/* <Collapsible label="Cosmetics" readMoreLink={'/Services/Cosmetics'}>
-          Latisse and Botox
-        </Collapsible> */}
+        <div className="services-grid">
+          {services.map((s) => (
+            <div className="service-card" key={s.title}>
+              <h3>{s.title}</h3>
+              <p>{s.description}</p>
+              <Link href={s.link} passHref>
+                <a className="service-link">Learn more <span>→</span></a>
+              </Link>
+            </div>
+          ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

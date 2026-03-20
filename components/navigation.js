@@ -1,35 +1,52 @@
-import 'bootstrap/dist/css/bootstrap.css';
-import Dropdown from 'react-bootstrap/Dropdown';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar'
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Container } from 'react-bootstrap';
+import { useState } from 'react';
+import Link from 'next/link';
 
 function Navigation() {
+  const [open, setOpen] = useState(false);
 
-  return <div id="navContainer">
-    <div className='container-fluid' >
-      <Navbar className="ms-auto" expand="lg" variant="dark"  >
-        <Container>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav" value="Conrad Eye Centers" >
-            <Nav className="m-auto">
-              <Nav.Link href="/#services" id="navBarText">Services</Nav.Link>
-              <Nav.Link href="/#about" id="navBarText">About</Nav.Link>
-              <Nav.Link href="/#resources" id="navBarText">Resources</Nav.Link>
-              <Nav.Link href="/#contact" id="navBarText">Contact Information and Locations</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-          <Nav.Link href="/">
-            <Navbar.Brand>(502) 899-7778</Navbar.Brand>
-          </Nav.Link>
-        </Container>
-      </Navbar>
+  return (
+    <div id="navContainer">
+      <div className="nav-inner">
+        <Link href="/" passHref>
+          <a className="nav-brand">Conrad Eye Centers</a>
+        </Link>
+        <button
+          className="nav-toggle"
+          onClick={() => setOpen(!open)}
+          aria-label="Toggle navigation"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul className={`nav-links${open ? ' open' : ''}`}>
+          <li>
+            <Link href="/#services" passHref>
+              <a onClick={() => setOpen(false)}>Services</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#about" passHref>
+              <a onClick={() => setOpen(false)}>About</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#resources" passHref>
+              <a onClick={() => setOpen(false)}>Resources</a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/#contact" passHref>
+              <a onClick={() => setOpen(false)}>Locations</a>
+            </Link>
+          </li>
+          <li>
+            <a href="tel:5028997778" className="nav-phone">(502) 899-7778</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  );
 }
 
-export default Navigation
-
-
+export default Navigation;
