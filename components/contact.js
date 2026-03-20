@@ -29,17 +29,7 @@ function Contact() {
             <a href="tel:8129446063" className="phone">(812) 944-6063</a>
             <span className="fax">Fax: (502) 897-5757</span>
           </div>
-
-          <div className="location-card">
-            <h3>Laurie Wilbanks — Springs</h3>
-            <address>
-              6420 Dutchmans Pkwy, Suite 85<br />
-              Louisville, KY 40205
-            </address>
-            <a href="tel:8129446063" className="phone">(812) 944-6063</a>
-            <span className="fax">Fax: (502) 897-5757</span>
-          </div>
-        </div>
+</div>
 
         <div className="contact-email-bar">
           <p>Email Us</p>
