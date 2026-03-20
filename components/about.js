@@ -33,7 +33,7 @@ function About() {
             </p>
             <p>
               In 1987 Dr. Conrad matriculated at Duke University School of
-              Medicine, one of the nation's top medical schools. Dr. Conrad
+              Medicine, one of the nation&apos;s top medical schools. Dr. Conrad
               excelled at Duke, receiving many honors and doing original
               collaborative research on corneal neovascularization (abnormal
               blood vessel growth in the front part of the eye) which yielded a
@@ -60,7 +60,7 @@ function About() {
               interests and local organizations, and has been featured on
               multiple radio shows as an expert in Ophthalmology. Outside of the
               office Dr. Conrad enjoys spending time with his family, their
-              poodles, and being "Pop-Pop" to his five grandchildren. He's also
+              poodles, and being &ldquo;Pop-Pop&rdquo; to his five grandchildren. He&apos;s also
               an avid sports fan and cheers on his various Alma Maters, Purdue,
               Duke, and UofL.
             </p>

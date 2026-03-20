@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from 'next/link';
 
 function Navigation() {
   const [open, setOpen] = useState(false);
@@ -6,7 +7,7 @@ function Navigation() {
   return (
     <div id="navContainer">
       <div id="navInner">
-        <a href="/" id="navBrand">Conrad Eye Centers</a>
+        <Link href="/"><a id="navBrand">Conrad Eye Centers</a></Link>
 
         <button
           id="navToggle"
@@ -20,11 +21,11 @@ function Navigation() {
         </button>
 
         <ul id="navLinks" className={open ? 'open' : ''}>
-          <li><a href="/#services" id="navBarText" onClick={() => setOpen(false)}>Services</a></li>
-          <li><a href="/#about" id="navBarText" onClick={() => setOpen(false)}>About</a></li>
-          <li><a href="/#resources" id="navBarText" onClick={() => setOpen(false)}>Resources</a></li>
-          <li><a href="/#contact" id="navBarText" onClick={() => setOpen(false)}>Locations</a></li>
-          <li><a href="/#contact" id="navBarText" onClick={() => setOpen(false)}>Contact</a></li>
+          <li><Link href="/#services"><a id="navBarText" onClick={() => setOpen(false)}>Services</a></Link></li>
+          <li><Link href="/#about"><a id="navBarText" onClick={() => setOpen(false)}>About</a></Link></li>
+          <li><Link href="/#resources"><a id="navBarText" onClick={() => setOpen(false)}>Resources</a></Link></li>
+          <li><Link href="/#contact"><a id="navBarText" onClick={() => setOpen(false)}>Locations</a></Link></li>
+          <li><Link href="/#contact"><a id="navBarText" onClick={() => setOpen(false)}>Contact</a></Link></li>
           <li><a href="tel:5028997778" id="navPhone">(502) 899-7778</a></li>
         </ul>
       </div>
