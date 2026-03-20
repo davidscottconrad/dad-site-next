@@ -3,13 +3,13 @@
    ============================================= */
 
 :root {
-  --navy:       #1C3A2E;
-  --navy-dark:  #0F2418;
-  --navy-mid:   #254D3D;
-  --teal:       #2EAF89;
-  --teal-dark:  #27976E;
-  --teal-light: #E5F5F0;
-  --teal-mid:   #B8E8D8;
+  --navy:       #4d4d4d;
+  --navy-dark:  #333333;
+  --navy-mid:   #5a5a5a;
+  --teal:       #8f9558;
+  --teal-dark:  #7a7f47;
+  --teal-light: #f0f2e4;
+  --teal-mid:   #d3d7b1;
   --white:      #FFFFFF;
   --gray-50:    #F8FAFC;
   --gray-100:   #F1F5F9;
@@ -34,8 +34,8 @@ html {
 }
 
 body {
-  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
-  font-size: 1rem;
+  font-family: 'DM Sans', 'Segoe UI', system-ui, sans-serif;
+  font-size: 1.2rem;
   color: var(--gray-700);
   background: var(--white);
   line-height: 1.65;
@@ -43,7 +43,7 @@ body {
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'DM Serif Display', Georgia, serif;
   color: var(--navy);
   line-height: 1.25;
 }
@@ -82,7 +82,7 @@ img {
 }
 
 .nav-brand {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 1.2rem;
   color: white;
   font-weight: 700;
@@ -182,7 +182,7 @@ img {
    ============================================= */
 
 .hero {
-  background: linear-gradient(145deg, var(--navy-dark) 0%, var(--navy) 55%, #1d4535 100%);
+  background: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -198,9 +198,7 @@ img {
   content: '';
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(ellipse at 20% 60%, rgba(27, 143, 168, 0.18) 0%, transparent 55%),
-    radial-gradient(ellipse at 80% 20%, rgba(27, 143, 168, 0.12) 0%, transparent 50%);
+  background: none;
   pointer-events: none;
 }
 
@@ -210,17 +208,16 @@ img {
   bottom: 0;
   left: 0;
   right: 0;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(27,143,168,0.5), transparent);
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--teal-mid), transparent);
 }
 
 .hero-logo-wrap {
-  max-width: 480px;
+  max-width: 520px;
   width: 100%;
   margin: 0 auto 44px;
   position: relative;
   z-index: 1;
-  filter: drop-shadow(0 0 40px rgba(27,143,168,0.2));
 }
 
 .hero-tagline {
@@ -235,7 +232,7 @@ img {
 }
 
 .hero-tagline span {
-  color: rgba(255, 255, 255, 0.72);
+  color: var(--gray-600);
   font-size: 0.82rem;
   font-weight: 400;
   letter-spacing: 2.5px;
@@ -252,9 +249,9 @@ img {
 }
 
 .hero-doctors {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 2.5rem;
-  color: white;
+  color: var(--navy);
   font-weight: 700;
   margin-bottom: 14px;
   line-height: 1.2;
@@ -263,7 +260,7 @@ img {
 }
 
 .hero-subtitle {
-  color: rgba(255, 255, 255, 0.55);
+  color: var(--gray-600);
   font-size: 0.82rem;
   letter-spacing: 1.5px;
   margin-bottom: 44px;
@@ -304,20 +301,20 @@ img {
 
 .btn-outline {
   background: transparent;
-  color: white;
+  color: var(--navy);
   padding: 14px 34px;
   border-radius: 8px;
   font-weight: 500;
   font-size: 0.975rem;
   transition: all 0.2s;
   display: inline-block;
-  border: 2px solid rgba(255, 255, 255, 0.3);
+  border: 2px solid var(--gray-200);
 }
 
 .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.6);
-  color: white;
+  background: var(--gray-100);
+  border-color: var(--navy);
+  color: var(--navy);
   transform: translateY(-2px);
 }
 
@@ -330,7 +327,7 @@ img {
   flex-direction: column;
   align-items: center;
   gap: 6px;
-  color: rgba(255, 255, 255, 0.35);
+  color: var(--gray-400);
   font-size: 0.7rem;
   letter-spacing: 1.5px;
   text-transform: uppercase;
@@ -353,7 +350,7 @@ img {
 @media (max-width: 640px) {
   .hero-doctors    { font-size: 1.85rem; }
   .hero-logo-wrap  { max-width: 300px; }
-  .hero-tagline span { font-size: 0.75rem; letter-spacing: 1.5px; }
+  .hero-tagline span { font-size: 0.85rem; letter-spacing: 1.5px; }
 }
 
 /* =============================================
@@ -441,7 +438,7 @@ img {
 }
 
 .service-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 1.1rem;
   color: var(--navy);
   margin-bottom: 10px;
@@ -587,7 +584,7 @@ img {
 }
 
 .resource-card h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 1.1rem;
   color: var(--navy);
   margin-bottom: 10px;
@@ -658,7 +655,7 @@ img {
   color: white;
   font-size: 1.05rem;
   margin-bottom: 12px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'DM Serif Display', serif;
 }
 
 .location-card address {
@@ -761,7 +758,7 @@ footer a:hover { color: white; }
    ============================================= */
 
 body {
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 .hero-tagline span {
@@ -770,7 +767,7 @@ body {
 }
 
 .hero-doctors {
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 .hero-subtitle {
@@ -784,7 +781,7 @@ body {
 }
 
 .section-header h2 {
-  font-size: 2.5rem;
+  font-size: 2.75rem;
 }
 
 .section-label {
@@ -796,8 +793,8 @@ body {
 }
 
 .service-card p {
-  font-size: 1.05rem;
-  line-height: 1.7;
+  font-size: 1.15rem;
+  line-height: 1.75;
 }
 
 .service-link {
@@ -813,8 +810,8 @@ body {
 }
 
 .doctor-bio p {
-  font-size: 1.1rem;
-  line-height: 1.8;
+  font-size: 1.2rem;
+  line-height: 1.85;
 }
 
 .resource-card h3 {
@@ -834,8 +831,8 @@ body {
 }
 
 .location-card address {
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.15rem;
+  line-height: 1.85;
 }
 
 .location-card .phone {
@@ -851,11 +848,11 @@ body {
 }
 
 .nav-links a {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .nav-brand {
-  font-size: 1.35rem;
+  font-size: 1.45rem;
 }
 
 .nav-phone {
@@ -875,7 +872,7 @@ body {
 /* Bootstrap override — ensure readable type on detail pages */
 .container h1, .container h2, .container h4 {
   color: var(--navy);
-  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'DM Serif Display', Georgia, serif;
 }
 
 .container p, .container li {
