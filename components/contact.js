@@ -11,14 +11,6 @@ function Contact() {
                 204 Breckenridge Lane<br />Louisville, KY 40207
               </p>
             </div>
-            <div className="col-md-6 mb-4">
-              <h2>New Albany</h2>
-              <p>
-                Professional Arts Building<br />
-                1919 State Street Suite 201<br />
-                New Albany, IN 47150
-              </p>
-            </div>
           </div>
         </div>
 
@@ -28,11 +20,6 @@ function Contact() {
             <div className="col-md-6 mb-4">
               <h2>St. Matthews</h2>
               Phone: 502-899-7778<br />
-              Fax: 502-897-5757
-            </div>
-            <div className="col-md-6 mb-4">
-              <h2>New Albany</h2>
-              Phone: 812-944-6063<br />
               Fax: 502-897-5757
             </div>
             <div className="col-md-12 mb-4">
