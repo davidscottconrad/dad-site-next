@@ -79,7 +79,7 @@ a {
   background-color: #4d4d4d;
   color: white;
   position: fixed;
-  top: 0;
+  top: 44px;
   width: 100%;
   z-index: 100;
 }
@@ -168,12 +168,12 @@ a {
 }
 
 #services, #about, #resources, #contact {
-  scroll-margin-top: 72px;
+  scroll-margin-top: 116px;
 }
 
 .header-container {
   width: 100%;
-  padding-top: 72px;
+  padding-top: 116px;
 }
 
 

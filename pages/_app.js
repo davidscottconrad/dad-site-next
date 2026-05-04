@@ -12,8 +12,10 @@ function MyApp({ Component, pageProps }) {
         padding: '10px 16px',
         fontWeight: 'bold',
         fontSize: '1rem',
-        position: 'relative',
-        zIndex: 200,
+        position: 'fixed',
+        top: 0,
+        width: '100%',
+        zIndex: 150,
       }}>
         Our New Albany office is now closed. Please contact our St. Matthews location.
       </div>
