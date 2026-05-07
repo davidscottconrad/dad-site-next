@@ -145,6 +145,11 @@ a {
 }
 
 @media (max-width: 768px) {
+  #navContainer { top: 68px; }
+
+  #services, #about, #resources, #contact { scroll-margin-top: 140px; }
+  .header-container { padding-top: 140px; }
+
   #navToggle { display: flex; }
 
   #navLinks {
